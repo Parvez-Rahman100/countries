@@ -1,0 +1,19 @@
+#countries{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.header{
+    text-align: center;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.country{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    /* width: 50%; */
+
+}
